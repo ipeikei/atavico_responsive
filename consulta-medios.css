@@ -1,0 +1,46 @@
+/* tamaño tablet*/
+@media screen and (min-width:640px) and (max-width:768px){
+    .col-2{
+        width: 50%;
+        float: left;
+        padding: 15px;
+    }
+}
+
+/* tamaño escritorio*/
+@media screen and (min-width:769px){
+    .contenedor{
+        max-width: 1140px;
+        margin:auto;
+    }
+    
+    .principio p{
+        text-align:center;
+        padding: 1% 2%;
+    }
+    
+    .col-3{
+        width: 23%;
+        float: left;
+        margin: 1%;
+    }
+    
+    #inscription form{
+        width: 50%;
+        margin: auto;
+    }
+    
+    figcaption{
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1360px){
+    .banner{
+        background-image: url(img/fondobanner2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 10%;
+    }
+}

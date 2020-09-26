@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+select, main, nav, header, footer{ display: block;}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 3%;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #ff93ba;
+    font-weight: 400;
+}
+
+h3{font-size: 1em;}
+p{line-height: 2em;}
+a{color: #fe9a78;}
+a:hover{color: #ff556f;}
+
+mark{
+    padding: 0 1%;
+    background-color: rgba(247, 244, 243, 0.8);    
+    color: #ff556f;
+}
+
+.cabecera{
+    background-color: rgba(255, 147, 186, 0.8);
+    height: 75px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar{padding: 25px 0px;}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 0.82em;
+}
+
+.navbar ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f7f4f3;
+}
+
+.navbar ul li a:hover{
+    color: #ff556f;
+    border-bottom: 1px solid #ff556f;
+}
+
+.banner{
+    margin-top: 75px;
+    background-image: url(img/fondobanner1.png);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 5% 0;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    width: 40%;
+}
+
+.principio p{
+    text-align: center;
+    padding: 1% 2%;
+}
+
+#temas{padding: 5%;}
+
+#lugar{padding: 5% 0;}
+
+#lugar iframe{width: 100%;}
+
+.titulo-centrado{
+    text-align: center;
+    color: #ff556f;
+    padding-bottom: 2%;
+}
+
+article{
+    margin: 5% 0;
+}
+
+#temas img{
+    width: 100%;
+    height: auto;
+}
+
+#inscripcion input, #inscripcion label, #inscripcion textarea{
+    display: inline-block;
+    width: 98%;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+}
+
+.subtitulo{
+    border-bottom: 1px solid;
+    color: #ff93ba;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+
+.boton{
+    background-color: #fca5df;
+    color: #fff;
+    width: 50%;
+}
+
+#inscripcion {
+    background-image:url(img/fondobanner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    padding: 5%;
+    background-color: rgba(43,51,62,.2);
+}
+
+.pie{
+    background-color: #ad66d7;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.pie i{ font-size: 2em;}
+
+.pie a{color: #f7f4f3}
+
+.pie img{
+    display: block;
+    margin: 0 auto;
+    width: 8%;
+    min-width: 80px;
+    padding: 1%;
+}
+
+.clearfix:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.texto-centrado{
+    text-align: center;
+    padding: 2% 0%;
+}
